@@ -1,0 +1,146 @@
+*{margin:0;padding:0;}
+body{background:#fff;font-size:14px;color:#333;font-family:"Microsoft Yahei","微软雅黑","MicrosoftJhengHei","华文细黑","Hiragino Sans GB","sans-serif";}
+em{font-style:normal;font-weight:normal;}
+dl,ol,ul,li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input,button{vertical-align:middle;font-size:100%;list-style:none;outline:none;border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after{content:"\200b";display:block;height:0;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+i,em,q{font-style:normal;}
+img{border:0;}
+a{text-decoration:none;color:#333;}
+a:hover{text-decoration:none;color:#ff700a;}
+.container{width:1200px;margin:0 auto;}
+.container:before,.container:after{content:" ";display:table;clear:both;}
+.figures_list{min-height:550px;}
+span.pageinfo{display:none;}
+.button2{background:#ff700a !important;border-radius:20px;}
+.button2:hover{background:#e05d00 !important;}
+.pc-sjh{background:#ff700a !important;border:1px solid #ff700a !important;font-size:14px;color:#fff;line-height:30px;display:inline-block;width:100px;text-align:center;margin-right:15px;}
+.pc-sjh:hover{background:#e05d00 !important;border:1px solid #e05d00 !important;color:#fff;}
+.newbtn,.w200,.w300,.login_from{border:1px solid #ddd !important;}
+.newbtn:focus,.w200:focus,.login_from:focus{border-color:#ff700a !important;}
+.pc-kecheng-xc{width:1200px;height:30px;overflow:hidden;margin:0 auto;}
+.top-yey-pc-gl{padding-top:70px;}
+.redPacket{display:inline-block;width:16px;height:18px;vertical-align:text-bottom;position:relative;top:-3px;margin-right:8px;background:url(http://hs.chengdudengbao.com/template/pc/skin/images/redpacket.png) no-repeat;background-size:100% 100%;background-position:top center;}
+.foot-notice{border-bottom-right-radius:5px;border-bottom-left-radius:5px;}
+
+/*重写样式*/
+.box-operation table thead tr th{background-color:#333 !important;}
+.user-info-vip span a{background:#ff700a !important;border-radius:5px !important;}
+.pay-method .btn-grey-weixin.on{border-color:#ff700a !important;}
+.pay-method li:hover{border-color:#ff700a !important;}
+.course-cover-fr li .title:hover{color:#ff700a !important;}
+.aui-nav-list-box ul li span:hover{color:#ff700a !important;}
+.aui-nav-list-box .aui-current{color:#ff700a !important;}
+.pc-video-vip-lst .m-video-viphy{border-radius:5px !important;}
+.welcome .welcome-list li a{background:#ff700a !important;}
+.recharge .pc-vip-list .money{color:#ff700a !important;}
+.recharge .pc-vip-list.active{border:#ff700a 2px solid !important;}
+.recharge .pc-vip-list:hover{border:#ff700a 2px solid !important;}
+.recharge .pc-vip-list .icon-recomd{background:#ff700a !important;}
+
+/*帐号登后*/
+#mainmenu{width:50px;height:70px;}
+#mainmenu .link{display:block;}
+#mainmenu .hy-tx{width:40px;height:40px;border-radius:20px;margin:15px 5px 15px 5px;}
+#mainmenu2{display:none;}
+#mainmenu .arrow{position:absolute;width:13px;height:8px;top:62px;right:20px;display:none;}
+#mainmenu .yey-huiyuan{padding:0 20px !important;}
+
+.nav-login-bd{position:absolute;width:300px;background:#fff;top:70px;right:0;z-index:9999;box-shadow:0 8px 16px 0 rgba(7,17,27,0.2);border-bottom-right-radius:8px;border-bottom-left-radius:8px;}
+.nav-login-bd .nav-login-user{background:#fff;overflow:hidden;}
+.nav-login-user .img{float:left;padding:10px 14px 10px 27px;}
+.nav-login-user .img .homeLink{display:block;}
+.nav-login-user .img img{width:50px;height:50px;border:2px solid #fff;border-radius:50%;display:block;}
+.title-accProt-span{height:20px;line-height:20px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.title-accProt-span a{color:#333;font-size:14px;}
+.title-accProt-span a:hover{color:#ff700a;}
+.nav-login-user .title-accProt{width:100px;float:left;padding-top:15px;}
+.nav-login-bottom{padding:20px 0 15px 0;background-color:#fff;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+ul.userFunList{overflow:hidden;}
+.micro-card-vip{height:44px;line-height:44px;margin-left:20px;padding:6px 12px;border-radius:6px;background-color:#ffecdf;margin-bottom:10px;margin-right:20px;}
+.micro-card-vip span{color:#ff700a;font-size:14px;}
+.micro-card-vip a{color:#ff700a;font-size:14px;}
+.nav-login-bottom ul li{width:100px;float:left;}
+.nav-login-bottom ul li a{display:block;text-align:center;font-size:14px;}
+.nav-login-bottom .userFunImg{display:block;width:55px;height:55px;position:relative;margin:0 auto;border-radius:5px;}
+.nav-login-bottom .img-grzx{background:url(../img/person-v1.png) no-repeat;}
+.nav-login-bottom .img-mytw{background:url(../img/person-v2.png) no-repeat;}
+.nav-login-bottom .img-myhy{background:url(../img/person-v3.png) no-repeat;}
+.nav-login-bottom ul li p{margin-top:5px;font-size:14px;line-height:24px;}
+.nav-login-profile-Link{float:right;font-size:14px;color:#333;display:inline-block;line-height:42px;}
+/*面包削导航*/
+.mianbaoxiao{width:1200px;margin:0 auto;font-size:14px;overflow:hidden;}
+.mianbaoxiao .mianbao-min{line-height:70px;color:#999;}
+.mianbaoxiao .mianbao-min a{color:#999;}
+.mianbaoxiao .mianbao-min a:hover{color:#ff700a;}
+/*最新课程分类样式*/
+.peixun-kecheng{width:1200px;margin:0 auto 20px;overflow:hidden;border:1px solid #eee;border-top:none;box-shadow:0 0 0 1px #eee;border-radius:5px 5px 4px 4px;}
+.kecheng-fl-pc{overflow:hidden;padding:10px 0;}
+.peixun-kecheng a{display:inline-block;text-align:center;padding:10px 20px;line-height:1;border-radius:15px;box-sizing:content-box;margin:5px 0;color:#666;font-size:14px;}
+.peixun-kecheng a.on,.peixun-kecheng a:hover{color:#ff700a;transition:color 200ms ease-in;}
+/*列表分页*/
+#showpage_min{text-align:center;padding-top:30px;padding-bottom:30px;overflow:hidden;}
+#showpage_min2{text-align:center;padding-top:30px;padding-bottom:30px;overflow:hidden;background:#f5f5f5;}
+#showpage_min a,#showpage_min2 a{background-color:#fff;font-size:14px;display:inline-block;height:36px;line-height:36px;border:1px solid #eee;color:#666;margin-left:5px;padding:0 20px;}
+#showpage_min a:hover,#showpage_min2 a:hover{border:1px solid #ff700a;color:#fff;background-color:#ff700a;text-decoration:none;}
+#showpage_min .cpage,#showpage_min2 .cpage{font-size:14px;display:inline-block;height:36px;line-height:36px;border:1px solid #ff700a;color:#fff;background-color:#ff700a;margin-left:5px;padding:0 20px;}
+/*VIP课程缩略图*/
+.yey-xin-k .fl{width:850px;}
+.yey-xin-k .fr{width:350px;background:#232323;height:478px;}
+.pc-video-vip-lst{width:100%;height:478px;background:#333;}
+.pc-video-vip-lst p{font-size:18px;color:#f30;font-weight:bold;padding:20px 0 0 300px;}
+.pc-video-vip-lst span{color:#fff;display:block;font-size:20px;padding:150px 0 0 300px;}
+.pc-video-vip-lst .m-video-viphy{width:120px;height:40px;line-height:40px; border-radius:0px;text-align:center;font-size:16px;color:#fff;margin-top:20px;margin-left:300px;background-color:#af6b3a;display:inline-block;}
+
+/*课程详情/图文教程*/
+.proDetail{background-color:#fff;border-radius:8px;}
+.detsMain{padding:30px 35px;overflow:hidden;}
+.detsMain p{line-height:26px;margin-bottom:20px;font-size:16px;color:#666;}
+.detsMain p strong{padding-right:5px;}
+.detsMain h3{color:#333;font-size:20px;padding-bottom:15px;font-weight:700;}
+.detsMain img{max-width:100%;display:block;border-radius:8px;}
+
+/*课程表*/
+.yey-kcb-content{padding-bottom:30px;}
+.yey-kcb-content .course-count-label{border-bottom:1px solid #eee;}
+.yey-kcb-content .m-yey-kcb-li{height:42px;line-height:42px;border-bottom:1px solid #eee;}
+.yey-kcb-content .m-yey-kcb-li a{padding-right:27px;background:url(http://hs.chengdudengbao.com/template/pc/skin/images/yey-video.png) right no-repeat;background-size:25px auto;color:#333;font-size:16px;display:block;}
+.yey-kcb-content .course-kcxxts{margin-top:10px;color:#fff;background-color:#333;padding:0 15px;height:42px;line-height:42px;font-size:14px;border-radius:3px;position:relative;}
+.yey-kcb-content .course-kcxxts .course-tishi{width:20px;height:20px;position:absolute;top:-10px;text-indent:-999em;display:block;left:10px;background:url(http://hs.chengdudengbao.com/template/pc/skin/images/yey-kcb-jt.png) no-repeat;background-size:20px auto;}
+
+/*课程评论*/
+.cmt-top-title .join-txt{display:inline-block;padding:30px 0 15px 35px;font-size:20px;color:#333;font-weight:700;}
+.article-course-pl{padding:0 35px;}
+.article-course-pl .form-contro{width:100%;height:130px;line-height:26px;display:block;font-size:14px;color:#333;background-color:#f5f5f5;padding:15px;border:none;resize:none;outline:0;box-sizing:border-box;border-radius:8px;}
+.article-course-pl .kc-pinglun .btn-success{border-radius:18px;background:#ff700a;color:#fff;font-size:14px;line-height:36px;height:36px;padding:0 10px;width:100px;cursor:pointer;font-family:Microsoft Yahei;}
+.kc-pinglun.clearfix{padding:10px 0;}
+.kc-pinglun .join-txt-fr{font-size:14px;color:#333;display:inline-block;line-height:35px;}
+.kc-pinglun .join-txt-fr em{color:#ff700a;font-size:18px;padding:0 2px;}
+
+/*评论内容*/
+.course-discuss .pl-list{padding:20px 0;border-top:1px solid #eee;background:#fff;}
+.course-discuss .pl-list-avator{float:left;width:40px;height:40px;}
+.course-discuss .pl-list-avator img{display:block;border-radius:50%;width:40px;height:40px;}
+.course-discuss .pl-list-main{margin-left:60px;}
+.course-discuss .pl-list-nick{line-height:16px;margin-bottom:8px;font-size:14px;color:#333;}
+.course-discuss .pl-list-content{margin-bottom:10px;font-size:14px;color:#333;line-height:24px;}
+.course-discuss .pl-list-btm{height:18px;font-size:12px;color:#93999f;margin-top:15px;}
+.course-discuss .pl-list-btm .list-praise{color:#93999f;}
+.course-discuss .pl-list-btm .pl-list-time{display:block;line-height:18px;}
+.course-discuss .pl-list-btm .ok-btn{display:none;position:relative;cursor:pointer;height:18px;line-height:18px;color:#666;padding:0 0 0 17px;background:url(http://hs.chengdudengbao.com/template/pc/skin/images/hottestcomment-bg.png) no-repeat 0 -100px;}
+.course-discuss .pl-list-btm .ok-btn em{margin-left:3px;}
+.course-discuss .pl-list-btm .ok-btn:hover{background-position:0 -70px;color:#8895a6;}
+
+/*官方回复*/
+.course-discuss .pl-list-gfhf{line-height:24px;border-top:1px solid #eee;margin-top:10px;padding-top:10px;color:#333;font-size:14px;}
+
+/*评论提交反馈*/
+.pl-list-tjfk{padding:15px 0;color:#666;font-size:16px;text-align:center;}
+
+/*帮助中心*/
+.gb-markdown h2{font-size:16px;color:#333;padding-bottom:10px;margin-top:10px;font-weight:700;}
+.gb-markdown h3{font-size:16px;color:#ff700a;display:inline-block;}
